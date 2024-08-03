@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Ranjan's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 0.75rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Aditya Ranjan's Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, I am Aditya Ranjan and I like to tell you about poetic devices.</p>
+            <h3>Poetry</h3>
+            <p>Did you know that the oldest known poem is 4000 years old? Evidently, poetry is one of the oldest forms of expression, which also saw the rise of legends like William Shakespeare, William Wordsworth, and Pablo Neruda to name a few. What makes poetry so intriguing and beautiful? Let’s find out!</p>
+            <p>The sea and my love both are deep<br>
+            I get as much as I give<br>
+            Both are infinite</p>
+            <p>Now read this:</p>
+            <p>My bounty is as deep as the sea<br>
+            My love as deep<br>
+            The more I give to thee<br>
+            The more I have<br>
+            For both are infinite</p>
+            <p>On comparing both, it is evident that the latter is better and closer to a poem. Whereas, the former is really raw. Observe that the second poem has a rhyming scheme. We will be learning about rhyming schemes and more. The second poem is written by the well-known William Shakespeare.</p>
+            <h3>Poetic Devices</h3>
+            <p>Let us discuss some commonly used terms used to add beauty to a poem.</p>
+            <h4>Allusion</h4>
+            <p>We use an allusion to state a circumstance or object in order to represent a given idea. For example, Abraham Lincoln is known for his great leadership skills. This fact is used in the following allusive statement: He is the Abraham Lincoln of our campaign.</p>
+            <h4>Understatement</h4>
+            <p>Understatement contains an expression of lesser strength than what would be expected. For example, Hit by the bus, the band-aid did the job.</p>
+            <p><strong>Note:</strong> A given statement can have more than one poetic device.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>View my projects to enhance your knowledge.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for more information on poetic devices and my projects.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aditya Ranjan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
